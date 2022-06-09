@@ -1,1 +1,12 @@
-
+{
+  "ID"
+  "Summary"
+  "STR"
+  "Actual result"
+  "Expected result"
+  "Environment"
+  "Build"
+  "Severity"
+  "Priority"
+  "Attachments"
+}
