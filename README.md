@@ -14,7 +14,7 @@ GIT Homework 1
 
 JSON
  4. Создать внешний репозиторий c названием JSON. HW_1_VK https://github.com/IKarnika/HW_1_VK.git
- 5. Клонировать репозиторий JSON на локальный компьютер. git clone https://github.com/IKarnika/HW_1_VK.git
+ 5. Клонировать репозиторий JSON на локальный компьютер. git clone https://github.com/IKarnika/HW_1_VK.git 
  6. Внутри локального JSON создать файл “new.json”. cd HW_!_VK, touch new.json
  7. Добавить файл под гит. git add new.json
  8. Закоммитить файл. git commit new.json -m "Person data"
