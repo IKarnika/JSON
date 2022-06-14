@@ -65,4 +65,4 @@ click on "Compare & pull request"
 
 10. Синхронизировать Внешнюю и Локальную ветки Main
 git checkout main
-git pull 
+git pull
