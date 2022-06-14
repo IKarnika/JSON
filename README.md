@@ -27,7 +27,7 @@ JSON
 	"Age":"16",
 	"Pet": "3",
 	"Salary":"60 000"
-
+        
 }
   Esc, :wq
   
