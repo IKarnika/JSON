@@ -10,18 +10,12 @@ GitHub. HW_2
 
 2. Запушить все ветки на внешний репозиторий  
 <code> git push -u origin Postman  
-	
-git push -u origin Jmeter  
-	
-git push -u origin Checklists 
-	
-git push -u origin Bug_reports  
-	
-git push -u origin SQL  
-	
-git push -u origin Charles  
-	
-git push -u origin Mobile_testing 
+	git push -u origin Jmeter  
+	git push -u origin Checklists 
+	git push -u origin Bug_reports  
+	git push -u origin SQL  
+	git push -u origin Charles  
+	git push -u origin Mobile_testing 
 	
 	</code>
 
