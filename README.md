@@ -16,8 +16,7 @@
  4. Создать внешний репозиторий c названием JSON.  
  Training <https://github.com/IKarnika/Training.git>  
  5. Клонировать репозиторий JSON на локальный компьютер.  
- ```git clone```  
- <https://github.com/IKarnika/Training.git>  
+ ```git clone https://github.com/IKarnika/Training.git```  
  6. Внутри локального JSON создать файл “new.json”.  
  ```cd Training, touch new.json```  
  7. Добавить файл под гит.  
@@ -28,13 +27,13 @@
  ```git push```  
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.  
  ```vim new.json```  
-  ```{
+  {
 	"Name":"Cirilla Fiona Elen Riannon",
 	"Age":"16",
 	"Pet": "3",
 	"Salary":"60 000"
 
-}```  
+}  
 
 ```Esc :wq Enter```  
   
@@ -43,13 +42,14 @@
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
  
   vim preferences.json,
- {
+```[
 	"Movie":"The 5th element",
 	"TV Show":"Brassic",
 	"Food":"KFC",
 	"Season":"Spring",
 	"Country":"Sweden"
- }
+ ]```  
+ 
  Esc :wq Enter
  
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON 
