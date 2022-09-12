@@ -78,7 +78,7 @@
  20. Синхронизировать внешний и локальный репозиторий JSON git pull, git push
 
 
-XML https://github.com/IKarnika/XML.git
+### XML https://github.com/IKarnika/XML.git  
  21. Создать внешний репозиторий c названием XML. XML
  22. Клонировать репозиторий XML на локальный компьютер. git clone https://github.com/IKarnika/XML.git
  23. Внутри локального XML создать файл “new.xml”. touch new.xml
@@ -125,15 +125,20 @@ Esc :wq Enter
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  38. Синхронизировать внешний и локальный репозиторий XML git pull
  
- TXT https://github.com/IKarnika/TXT.git
- 1. Создать внешний репозиторий c названием TXT.
- 2. Клонировать репозиторий TXT на локальный компьютер. git clone https://github.com/IKarnika/TXT.git
- 3. Внутри локального TXT создать файл “new.txt”. touch new.txt
- 4. Добавить файл под гит. git add new.txt
- 5. Закоммитить файл. git commit -m "Added new file"
- 6. Отправить файл на внешний GitHub репозиторий. git push
- 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
- vim new.txt
+ ### TXT https://github.com/IKarnika/TXT.git  
+ 1. Создать внешний репозиторий c названием TXT.  
+ 2. Клонировать репозиторий TXT на локальный компьютер.  
+ ```git clone https://github.com/IKarnika/TXT.git```  
+ 3. Внутри локального TXT создать файл “new.txt”.  
+ ```touch new.txt```  
+ 4. Добавить файл под гит.   
+ ```git add new.txt```  
+ 5. Закоммитить файл.  
+ ```git commit -m "Added new file"```  
+ 6. Отправить файл на внешний GitHub репозиторий.  
+ ```git push```
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.  
+ ```vim new.txt```  
  
  Name Alice
  Age unknown
