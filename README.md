@@ -27,14 +27,15 @@
  ```git push```  
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.  
  ```vim new.json```  
- ```{
+ ``` {
 	"Name":"Cirilla Fiona Elen Riannon",
 	"Age":"16",
 	"Pet": "3",
 	"Salary":"60 000"
 
-}```  
- ```Esc :wq Enter```  
+} ```  
+
+```Esc :wq Enter```  
   
  11. Отправить изменения на внешний репозиторий. git commit new.json -m "Update person data", git push
  12. Создать файл preferences.json vim preferences.json
