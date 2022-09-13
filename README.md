@@ -37,16 +37,17 @@
 }  
 ```  
 
-```Esc :wq Enter```  
+`Esc :wq Enter`  
   
  11. Отправить изменения на внешний репозиторий.  
- ```git commit new.json -m "Update person data"```  
- ```git push```  
+ `git commit new.json -m "Update person data"`  
+ `git push`  
  12. Создать файл  
-  ```preferences.json```  
-  ```vim preferences.json```  
+  `preferences.json`  
+  `vim preferences.json`  
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.  
-  ```vim preferences.json```  
+  `vim preferences.json`  
+  ```  
   {
 	"Movie":"The 5th element",
 	"TV Show":"Brassic",
@@ -54,25 +55,27 @@
 	"Season":"Spring",
 	"Country":"Sweden"
  }  
+ ```  
  
- ```Esc :wq Enter```  
+ `Esc :wq Enter`  
  
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON   
  
- ```vim skills.json```  
-  
+ `vim skills.json`  
+ ```    
  {
 	"Smart"
 	"Speed"
 	"Streight"
 	"Agility"
 }  
-```Esc :wq Enter```  
+```  
+`Esc :wq Enter`  
 
  15. Отправить сразу 2 файла на внешний репозиторий.  
- ```git add .```  
- ```git commit .```  
- ```git push```   
+ `git add .`  
+ `git commit .`  
+ `git push`   
  16. На веб интерфейсе создать файл bug_report.json. 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
