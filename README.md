@@ -101,10 +101,10 @@
  `vim new.xml`  
  ```  
  <xml? version="1.0" encoding="UTF-8">  
-        <name>Max Frai</name>  
-        <age>40</age>  
-        <pet>2</pet>  
-        <salary>65 000</salary>    
+ <name>Max Frai</name>  
+ <age>40</age>  
+ <pet>2</pet>  
+ <salary>65 000</salary>    
 ```  
 `Esc :wq Enter`  
  
@@ -117,31 +117,38 @@
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.   
 ```  
 <xml? version="1.0" encoding="UTF-8">  
-		<movie>Deadpool</movie>  
-		<TVShow>Misfits</TVShow>  
-		<food>Borsch</food>  
-		<season>Summer</season>  
-		<counrty>Finland</country>  
+<movie>Deadpool</movie>  
+<TVShow>Misfits</TVShow>  
+<food>Borsch</food>  
+<season>Summer</season>  
+<counrty>Finland</country>  
 ```    
 `Esc :wq Enter`  
 	
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
- ```vim skills.xml```  
- <xml? version="1.0" encoding="UTF-8">
-		<skill1>Agility</skill1>
-		<skill2>Smart</skill2>
-		<skill3>Speed</skill3>
-		<skill4>Magic</skill4>
-		<skill5>Mana</skill5>  
-```Esc :wq Enter```  
+ `vim skills.xml`  
+```  
+<xml? version="1.0" encoding="UTF-8">
+<skill1>Agility</skill1>
+<skill2>Smart</skill2>
+<skill3>Speed</skill3>
+<skill4>Magic</skill4>
+<skill5>Mana</skill5>  
+```  
+`Esc :wq Enter`  
 
- 32. Сделать коммит в одну строку. git add . , git commit -m "New xml files"
- 33. Отправить сразу 2 файла на внешний репозиторий. git push
- 34. На веб интерфейсе создать файл bug_report.xml.
+ 32. Сделать коммит в одну строку.  
+ `git add .`  
+ `git commit -m "New xml files"`  
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+ `git push`  
+ 34. На веб интерфейсе создать файл  
+ `bug_report.xml`  
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 38. Синхронизировать внешний и локальный репозиторий XML git pull
+ 38. Синхронизировать внешний и локальный репозиторий XML  
+ `git pull`  
  
  ### TXT https://github.com/IKarnika/TXT.git  
  1. Создать внешний репозиторий c названием TXT.  
