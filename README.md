@@ -109,19 +109,19 @@
 `Esc :wq Enter`  
  
  28. Отправить изменения на внешний репозиторий.  
- ```git add new.xml```  
- ```git commit -m "New update Bio"```  
- ```git push```  
+ `git add new.xml`  
+ `git commit -m "New update Bio"`  
+ `git push`  
  29. Создать файл preferences.xml  
- ```vim preferences.xml```  
+ `vim preferences.xml`  
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.   
-`<xml? version="1.0" encoding="UTF-8">
-		<movie>Deadpool</movie>
-		<TVShow>Misfits</TVShow>
-		<food>Borsch</food>
-		<season>Summer</season>
-		<counrty>Finland</country>`  
-```Esc :wq Enter```  
+`<xml? version="1.0" encoding="UTF-8">  
+		<movie>Deadpool</movie>  
+		<TVShow>Misfits</TVShow>  
+		<food>Borsch</food>  
+		<season>Summer</season>  
+		<counrty>Finland</country>`    
+`Esc :wq Enter`  
 	
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
  ```vim skills.xml```  
