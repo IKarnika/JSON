@@ -81,8 +81,8 @@
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  20. Синхронизировать внешний и локальный репозиторий JSON  
- ```git pull```  
- ```git push```
+ `git pull`  
+ `git push`
 
 
 ### XML https://github.com/IKarnika/XML.git  
@@ -99,11 +99,13 @@
  `git push`
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.   
  `vim new.xml`  
- ```<xml? version="1.0" encoding="UTF-8">
+ ```  
+ <xml? version="1.0" encoding="UTF-8">
         <name>Max Frai</name>
         <age>40</age>
         <pet>2</pet>
-        <salary>65 000</salary>```  
+        <salary>65 000</salary>  
+	```  
 `Esc :wq Enter`  
  
  28. Отправить изменения на внешний репозиторий.  
