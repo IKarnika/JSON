@@ -100,11 +100,11 @@
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.   
  `vim new.xml`  
  ```  
- <xml? version="1.0" encoding="UTF-8">
-        <name>Max Frai</name>
-        <age>40</age>
-        <pet>2</pet>
-        <salary>65 000</salary>  
+ <xml? version="1.0" encoding="UTF-8">  
+        <name>Max Frai</name>  
+        <age>40</age>  
+        <pet>2</pet>  
+        <salary>65 000</salary>    
 ```  
 `Esc :wq Enter`  
  
