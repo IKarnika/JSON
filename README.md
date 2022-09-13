@@ -94,11 +94,11 @@
  ```git push```
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.   
  ```vim new.xml```  
- ```<xml? version="1.0" encoding="UTF-8">
+ <xml? version="1.0" encoding="UTF-8">
         <name>Max Frai</name>
         <age>40</age>
         <pet>2</pet>
-        <salary>65 000</salary>```  
+        <salary>65 000</salary>  
 ```Esc :wq Enter```  
  
  28. Отправить изменения на внешний репозиторий.  
@@ -108,12 +108,12 @@
  29. Создать файл preferences.xml  
  ```vim preferences.xml```  
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.   
- <xml? version="1.0" encoding="UTF-8">
+`<xml? version="1.0" encoding="UTF-8">
 		<movie>Deadpool</movie>
 		<TVShow>Misfits</TVShow>
 		<food>Borsch</food>
 		<season>Summer</season>
-		<counrty>Finland</country>  
+		<counrty>Finland</country>`  
 ```Esc :wq Enter```  
 	
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
