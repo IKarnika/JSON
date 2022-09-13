@@ -83,23 +83,23 @@
 ### XML https://github.com/IKarnika/XML.git  
 21. Создать внешний репозиторий c названием XML. XML  
  22. Клонировать репозиторий XML на локальный компьютер.  
- ```git clone https://github.com/IKarnika/XML.git```  
+ `git clone https://github.com/IKarnika/XML.git`  
  23. Внутри локального XML создать файл “new.xml”.  
- ```touch new.xml```  
+ `touch new.xml`  
  24. Добавить файл под гит.  
- ```git add new.xml```  
+ `git add new.xml`  
  25. Закоммитить файл.  
- ```git commit -m "Bio"```  
+ `git commit -m "Bio"`  
  26. Отправить файл на внешний GitHub репозиторий.  
- ```git push```
+ `git push`
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.   
- ```vim new.xml```  
- <xml? version="1.0" encoding="UTF-8">
+ `vim new.xml`  
+ ```<xml? version="1.0" encoding="UTF-8">
         <name>Max Frai</name>
         <age>40</age>
         <pet>2</pet>
-        <salary>65 000</salary>  
-```Esc :wq Enter```  
+        <salary>65 000</salary>```  
+`Esc :wq Enter`  
  
  28. Отправить изменения на внешний репозиторий.  
  ```git add new.xml```  
